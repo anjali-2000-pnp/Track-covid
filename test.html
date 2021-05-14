@@ -1,0 +1,235 @@
+<html>
+<head>
+
+<link rel="stylesheet" href="style.css"> 
+	<script>
+		function f1(){
+		var a = document.form.container;
+		var b = document.form.container1;
+		var c = document.form.container2;
+		if (a.checked == true && b.checked == true && c.checked == true){
+		alert("Very High Risk");
+		alert("Contact to Doctors as soon as possible");
+		}
+		else if (a.checked == true && b.checked == true){
+		alert("Low Risk");
+		alert("You are safe");
+		}
+		else if (b.checked == true && c.checked == true){
+		alert("High Risk");
+		alert("Contact to Doctors");
+		}
+		else if (a.checked == true && c.checked == true){
+		alert("High Risk");
+		alert("Contact to Doctors");
+		}
+		else if (a.checked == true){
+		alert("Low Risk");
+		alert("You are safe");	
+		}
+		else if (b.checked == true){
+		alert("Low Risk");
+		alert("You are safe");
+		}
+		else if (c.checked == true){
+		alert("High Risk");
+		alert("Contact to Doctors");
+		}
+		else{
+		alert("you are safe");
+		}
+		
+		}
+	</script>
+</head>
+<body>
+
+
+		<div class="head">
+			<div class="logo"><a href="home.html">COVID-19</a></div>
+			
+				<ul class="navbar">
+					<li><a href="index.html">HOME</a></li>
+					<li><a href="cases.html">CASES</a></li>
+					<li><a href="test.html" id="active">TEST</a></li>
+					<li><a href="test1.html">BUY</a></li>
+					<li><a href="contact.html">CONTACT</a></li>
+					<li><a href="about.html">ABOUT</a></li>
+				</ul>	
+					
+		</div>
+
+
+		<img src="images/RISK.jpg" WIDTH="100%" HEIGHT="600" id="img1" style="margin-top:0px;box-shadow:10px 20px 100px 5px white;">
+
+
+
+<div class="test">
+<br><br><br><br><br><br><br>	
+	<div class="testform">
+	<form align="center" name="form" onsubmit="f1()">
+	<br>
+		<h1 style="">TEST FORM</h1>
+	
+			<table border="0" align="center" cellpadding="5" cellspacing="10" width="80%">
+			<tbody><tr>
+			<td> <span> First Name: </span> </td>
+			<td> <span> Last Name: </span> </td>
+			</tr>
+			<tr>
+			<td>
+			<input type="text" placeholder="abcde" required="">
+			</td>
+			<td>
+			<input type="text" placeholder="Fghij" required="">
+			</td>
+			</tr>
+			<tr>
+			<td> <span> Phone: </span> </td>
+			<td> <span> Email Address: </span> </td>
+			</tr>
+			<tr>
+			<td>
+			<input type="text" placeholder="0123456789" required="">
+			</td>
+			<td>
+			<input type="text" placeholder="abc@gmail.com" required="">
+			</td>
+			</tr>
+			
+			<tr>
+			<td> <span> Date of Birth: </span> </td>
+			<td> <span> Gender: </span> </td>
+			</tr>
+			<tr>
+			<td>
+			<input type="text" placeholder="DD/MM/YYYY" required="">
+			</td>
+			<td>
+			<input type="radio" name="gender" placeholder="abc@gmail.com"><span style="color:black"> Male </span>
+			<input type="radio" name="gender" placeholder="abc@gmail.com"><span style="color:black"> Female </span>
+			<input type="radio" name="gender" placeholder="abc@gmail.com"><span style="color:black"> Other </span>
+			</td>
+			</tr>
+			
+			<tr>
+			<td> <span> Country: </span> </td>
+			<td> <span> State: </span> </td>
+			</tr>
+			<tr>
+			<td>
+			<input type="text" placeholder="India" required="">
+			</td>
+			<td>
+			<input type="text" placeholder="Haryana" required="">
+			</td>
+			</tr>
+			
+			<tr>
+			<td> <span> City: </span> </td>
+			<td> <span> Address: </span> </td>
+			</tr>
+			<tr>
+			<td>
+			<input type="text" placeholder="Sirsa" required="">
+			</td>
+			<td>
+			<input type="text" placeholder="112, Model Town " required="">
+			</td>
+			</tr>
+			
+			<tr>
+			<td colspan="2">
+			<span>Symptoms of covid-19 : (check the symptoms to see risk level) : </span>
+			</td>
+			</tr>
+			<tr>
+			<td colspan="2">
+				<input type="checkbox" name="container" id="fever"> <span style="color:black;font-size:17px;"> FEVER </span><span> </span>
+				<input type="checkbox" name="container1" id="cold"> <span style="color:black;font-size:17px;"> COLD  </span>
+				<input type="checkbox" name="container2" id="breathing">  <span style="color:black;font-size:17px;"> BREATHING PROBLEM </span>
+			</td>
+			</tr>
+			
+			<tr>
+			
+			<td colspan="2">
+			<br>
+			<p align="center"> <input type="submit"> </p>
+			<br>
+			</td>
+			</tr>
+			
+			</tbody></table>
+		<BR> 
+	</form>
+	
+	</div>
+	<br><br><br><br>
+</div>
+		
+		
+		<table class="bg2">	
+				<tr>
+				<td><h1>" ALWAYS WEAR MASK WHILE GOING OUT "</h1></td>	
+				</tr> 
+		</table>
+
+
+
+<div id="foot" style="background-color:black;color:white;width:100%;height:;opacity:0.9;">
+<table id="footer" border=0 style="margin-left:100px;margin-right:100px;color:white;font-family:calibri " cellspacing="30" >
+		
+		<tr style="margin-left:50px;">
+		<td><h1>About Us</h1></td>
+		<td><h1>Useful links</h1></td>
+		<td><h1>Subscribe</h1></td>
+		</tr>
+		
+		<tr>
+		<td style="width:33.33%">
+		<p style="font-size:15pt;text-align:justify;color:white;">
+		If you have these signs/symptoms please
+		call State helpline number
+		or Ministry of Health &
+		Family Welfare’s 24X7
+		helpline at 011-123456789
+		</p>	
+		</td>	 
+		<td style="width:33.33%"style="width:33.33%">
+		<a href="home.html" style="color:white;text-decoration:none;font-size:15pt; ">Home</a><br>
+		<a href="test.html" style="color:white;text-decoration:none;font-size:15pt;">Test</a><br> 
+		<a href="test1.html" style="color:white;text-decoration:none;font-size:15pt;">Buy</a><br> 
+		<a href="contact.html" style="color:white;text-decoration:none;font-size:15pt;">Contact</a><br>
+		<a href="about.html" style="color:white;text-decoration:none;font-size:15pt;">About</a><br>
+		</td>
+		<td style="width:33.33%">
+		<p style="font-size:15pt;text-align:justify;">By subscribing to our mailing list you will always get latest news and updates from us.</p>
+		</td>	
+		</tr>
+		 
+	
+		 <tr style="font-size:15pt">
+		 <td>
+		 Phone : +1234567890
+		 </td> 
+		 <td>Fax : +1234567890
+         </td>
+         <td>Email : info@example.com
+		 </td>
+		</tr>
+	
+</table>
+
+</div>
+	
+	
+	
+	
+	<footer class="foot">
+			| © 2020 COVID-19 | 
+	</footer>
+
+
+</body>
+</html>
